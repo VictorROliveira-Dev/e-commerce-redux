@@ -1,0 +1,32 @@
+.carrinho {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 100px;
+}
+
+.total {
+  background-color: #eff9ff;
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  padding: 16px;
+  width: 100%;
+}
+
+.finalizar {
+  background-color: #1875e8;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px;
+  transition: all .2s ease-in-out;
+}
+
+.finalizar:hover {
+  opacity: 0.8;
+}
